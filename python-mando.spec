@@ -17,6 +17,9 @@ BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(six)
 BuildRequires:  python3dist(sphinx)
 
+# Manually added dependencies so it builds successfully
+BuildRequires:  python3dist(pytest)
+
 %description
 mando: CLI interfaces for Humans! .. image::
 
